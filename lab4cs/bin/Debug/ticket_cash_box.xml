@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TicketCashBox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Routes>
+    <Route>
+      <Stations>
+        <Station>
+          <Name>Station A</Name>
+          <ArrivalTime />
+          <DepartureTime />
+          <AvailableSeats>100</AvailableSeats>
+        </Station>
+        <Station>
+          <Name>Station B</Name>
+          <ArrivalTime />
+          <DepartureTime />
+          <AvailableSeats>80</AvailableSeats>
+        </Station>
+      </Stations>
+      <TotalSeats>180</TotalSeats>
+      <DaysOfWeek>
+        <string>Monday</string>
+        <string>Wednesday</string>
+      </DaysOfWeek>
+      <FlightNumber>101</FlightNumber>
+    </Route>
+    <Route>
+      <Stations>
+        <Station>
+          <Name>Station X</Name>
+          <ArrivalTime />
+          <DepartureTime />
+          <AvailableSeats>120</AvailableSeats>
+        </Station>
+        <Station>
+          <Name>Station Y</Name>
+          <ArrivalTime />
+          <DepartureTime />
+          <AvailableSeats>70</AvailableSeats>
+        </Station>
+      </Stations>
+      <TotalSeats>190</TotalSeats>
+      <DaysOfWeek>
+        <string>Monday</string>
+        <string>Friday</string>
+      </DaysOfWeek>
+      <FlightNumber>102</FlightNumber>
+    </Route>
+  </Routes>
+</TicketCashBox>
